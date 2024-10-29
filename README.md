@@ -17,12 +17,24 @@ Key Features:
 Simple to implement and interpret.
 Provides insight into the relationships between variables.
 Useful for predicting continuous outcomes.
+
+Single-Neuron Neural Networks
+This section contains implementations of basic single-neuron neural networks, including various activation functions. A single-neuron neural network mimics the behavior of a biological neuron, processing inputs and generating an output based on the weights and bias applied to the inputs.
+
+Activation Functions:
+Sigmoid: A smooth and differentiable function that maps input values to a range between 0 and 1.
+ReLU (Rectified Linear Unit): Outputs the input directly if it is positive; otherwise, it outputs zero. Commonly used due to its simplicity and effectiveness.
+Tanh (Hyperbolic Tangent): Similar to the sigmoid function but outputs values in the range of -1 to 1.
+Key Features:
+Demonstrates the basic principles of neural networks.
+Allows experimentation with different activation functions and their effects on output.
+Provides insight into how single neurons can learn from data points.
+
 Getting Started
 To run the algorithms, simply clone this repository to your local machine and open the MATLAB scripts. You can modify the parameters and input data as needed to explore the functionality of each algorithm.
 
-bash
-Copy code
 git clone https://github.com/DivyaBharathisp/MATLAB-programs.git
+
 Requirements
 MATLAB R2021a or later
 Basic knowledge of MATLAB syntax and machine learning concepts
